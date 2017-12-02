@@ -1,0 +1,110 @@
+{
+	"FRANCE EXCLUDE 78700 AND 93*": {
+		"label": "Livraison en 24-48h du lundi au vendredi pour tous ceux qui font le choix de recevoir leur colis sur leur lieu de travail",
+		"country": "FR",
+		"zipcode": "",
+		"fees": "",
+		"extra": 0,
+		"exclude": "93*",
+		"comment": "you stop to loop if you find FR(78700,93*), return false"
+	},
+	"FRANCE SPECIAL MOUNTAINS": {
+		"label": "Livraison en 24-48h du lundi au vendredi pour tous ceux qui font le choix de recevoir leur colis sur leur lieu de travail",
+		"country": "FR",
+		"zipcode": "78700, 04120,04130,04140,04160,04170,04200,04240,04260,04300,04310,04330,04360,04370,04400,04510,04530,04600,04700,04850,05100,05110,05120,05130,05150,05160,05170,05200,05220,05240,05250,05260,05290,05300,05310,05320,05330,05340,05350,05400,05460,05470,05500,05560,05600,05700,05800,06140,06380,06390,06410,06420,06430,06450,06470,06530,06540,06620,06710,06750,06910,09110,09140,09300,09460,25120,25140,25240,25370,25450,25500,25650,30570,31110,38112,38114,38142,38190,38250,38350,38380,38410,38580,38660,38700,38750,38860,38880,39220,39310,39400,63113,63210,63240,63610,63660,63690,63840,63850,64440,64490,64560,64570,65110,65120,65170,65200,65240,65400,65510,65710,66210,66760,66800,68140,68610,68650,73110,73120,73130,73140,73150,73160,73170,73190,73210,73220,73230,73250,73260,73270,73300,73320,73340,73350,73390,73400,73440,73450,73460,73470,73500,73530,73550,73590,73600,73620,73630,73640,73710,73720,73870,74110,74120,74170,74220,74230,74260,74310,74340,74350,74360,74390,74400,74420,74430,74440,74450,74470,74480,74660,74740,74920,83111,83440,83530,83560,83630,83690,83830,83840,84390,88310,88340,88370,88400,90200",
+		"fees": "1:4.98, 2:5.25, 3:5.52, 4:5.78, 5:6.06, 6:6.33, 7:6.60, 8:6.87, 9:7.15, 10:7.41, 11:7.71, 12:7.99, 13:8.29, 14:8.58, 15:8.88, 16:9.16, 17:9.46, 18:9.75, 19:10.04, 20:10.33, 21:10.66, 22:10.98, 23:11.31, 24:11.63, 25:11.96, 26:12.28, 27:12.60, 28:12.93, 29:13.26, 30:13.58",
+		"extra": 6,
+		"exclude": "",
+		"comment": "you stop to loop if you find FR(04120,...), combine fees + extra, return the pricing"
+	},
+	"FRANCE SPECIAL ISLANDS": {
+		"label": "Livraison en 24-48h du lundi au vendredi pour tous ceux qui font le choix de recevoir leur colis sur leur lieu de travail",
+		"country": "FR",
+		"zipcode": "20*,17111,17123,17190,17310,17370,17410,17480,17550,17580,17590,17630,17650,17670,17740,17840,17880,17940,22870,29242,29253,29259,29980,29990,56360,56590,56780,56840,85350",
+		"fees": "1:4.98, 2:5.25, 3:5.52, 4:5.78, 5:6.06, 6:6.33, 7:6.60, 8:6.87, 9:7.15, 10:7.41, 11:7.71, 12:7.99, 13:8.29, 14:8.58, 15:8.88, 16:9.16, 17:9.46, 18:9.75, 19:10.04, 20:10.33, 21:10.66, 22:10.98, 23:11.31, 24:11.63, 25:11.96, 26:12.28, 27:12.60, 28:12.93, 29:13.26, 30:13.58",
+		"extra": 16,
+		"exclude": "",
+		"comment": "you stop to loop if you find FR(20*,17111,...), combine fees + extra, return the pricing"
+	},
+	"ITALY SPECIAL ISLAND": {
+		"label": "Livraison en 48-96h dans toute l’Europe, et dans le monde entier avec la fiabilité du réseau DPD",
+		"country": "IT",
+		"zipcode": "07*,08*,09*,90*,91*,92*,93*,94*,95*,96*,97*,98*,99*",
+		"fees": "1:11.36, 2:12.05, 3:12.77, 4:13.49, 5:14.22, 8:15.67, 10:17.11, 15:20.01, 20:23.62, 25:27.24, 30:31.58",
+		"extra": 26,
+		"exclude": "",
+		"comment": "you stop to loop if you find IT(07*,08*,...), combine fees + extra, return the pricing"
+	},
+	"FRANCE AND MONACO": {
+		"label": "Livraison en 24-48h du lundi au vendredi pour tous ceux qui font le choix de recevoir leur colis sur leur lieu de travail",
+		"country": "FR,MC",
+		"zipcode": "*",
+		"fees": "1:4.98, 2:5.25, 3:5.52, 4:5.78, 5:6.06, 6:6.33, 7:6.60, 8:6.87, 9:7.15, 10:7.41, 11:7.71, 12:7.99, 13:8.29, 14:8.58, 15:8.88, 16:9.16, 17:9.46, 18:9.75, 19:10.04, 20:10.33, 21:10.66, 22:10.98, 23:11.31, 24:11.63, 25:11.96, 26:12.28, 27:12.60, 28:12.93, 29:13.26, 30:13.58",
+		"extra": 0,
+		"exclude": "",
+		"comment": "you stop to loop if you find country(FR,MC), return the pricing"
+	},
+	"EUROPE ZONE 1": {
+		"label": "Livraison en 48-96h dans toute l’Europe, et dans le monde entier avec la fiabilité du réseau DPD",
+		"country": "DE,BE,LU,NL",
+		"zipcode": "*",
+		"fees": "1:9.12, 2:9.59, 3:10.07, 4:10.54, 5:11.01, 8:11.95, 10:13.21, 15:14.78, 20:17.14, 25:19.50, 30:22.33",
+		"extra": 0,
+		"exclude": "",
+		"comment": "you stop to loop if you find country(DE,BE,LU,NL), return the pricing"
+	},
+	"EUROPE ZONE 2": {
+		"label": "Livraison en 48-96h dans toute l’Europe, et dans le monde entier avec la fiabilité du réseau DPD",
+		"country": "AT,ES,GB,IT",
+		"zipcode": "*",
+		"fees": "1:11.36, 2:12.05, 3:12.77, 4:13.49, 5:14.22, 8:15.67, 10:17.11, 15:20.01, 20:23.62, 25:27.24, 30:31.58",
+		"extra": 0,
+		"exclude": "",
+		"comment": "you stop to loop if you find country(AT,ES,GB,IT), return the pricing"
+	},
+	"EUROPE ZONE 2 + CUSTOMS FEES": {
+		"label": "Livraison en 48-96h dans toute l’Europe, et dans le monde entier avec la fiabilité du réseau DPD",
+		"country": "CH,LI",
+		"zipcode": "*",
+		"fees": "1:11.36, 2:12.05, 3:12.77, 4:13.49, 5:14.22, 8:15.67, 10:17.11, 15:20.01, 20:23.62, 25:27.24, 30:31.58",
+		"extra": 35.07,
+		"exclude": "",
+		"comment": "you stop to loop if you find country(CH,LI), combine fees + extra, return the pricing"
+	},
+	"EUROPE ZONE 3": {
+		"label": "Livraison en 48-96h dans toute l’Europe, et dans le monde entier avec la fiabilité du réseau DPD",
+		"country": "HR,DK,EE,HU,IE,LT,PL,PT,CZ,SI,SK,SE",
+		"zipcode": "*",
+		"fees": "1:16.17, 2:17.55, 3:18.94, 4:20.32, 5:21.71, 8:26.36, 10:28.06, 15:29.32, 20:33.53, 25:36.26, 30:37.43",
+		"extra": 0,
+		"exclude": "",
+		"comment": "you stop to loop if you find country(HR,DK,EE,HU,IE,LT,PL,PT,CZ,SI,SK,SE), return the pricing"
+	},
+	"EUROPE ZONE 3 + CUSTOMS FEES": {
+		"label": "Livraison en 48-96h dans toute l’Europe, et dans le monde entier avec la fiabilité du réseau DPD",
+		"country": "AD,NO",
+		"zipcode": "*",
+		"fees": "1:16.17, 2:17.55, 3:18.94, 4:20.32, 5:21.71, 8:26.36, 10:28.06, 15:29.32, 20:33.53, 25:36.26, 30:37.43",
+		"extra": 35.07,
+		"exclude": "",
+		"comment": "you stop to loop if you find country(AD,NO), combine fees + extra, return the pricing"
+	},
+	"EUROPE ZONE 4": {
+		"label": "Livraison en 48-96h dans toute l’Europe, et dans le monde entier avec la fiabilité du réseau DPD",
+		"country": "GR,FI,BG,RO",
+		"zipcode": "*",
+		"fees": "1:27.08, 2:27.24, 3:27.39, 4:27.53, 5:27.64, 8:28.80, 10:29.97, 15:32.18, 20:36.49, 25:39.75, 30:39.87",
+		"extra": 0,
+		"exclude": "",
+		"comment": "you stop to loop if you find country(GR,FI,BG,RO), return the pricing"
+	},
+	"EUROPE ZONE 4 + CUSTOMS FEES": {
+		"label": "Livraison en 48-96h dans toute l’Europe, et dans le monde entier avec la fiabilité du réseau DPD",
+		"country": "BA,RS",
+		"zipcode": "*",
+		"fees": "1:27.08, 2:27.24, 3:27.39, 4:27.53, 5:27.64, 8:28.80, 10:29.97, 15:32.18, 20:36.49, 25:39.75, 30:39.87",
+		"extra": 35.07,
+		"exclude": "",
+		"comment": "you stop to loop if you find country(AD,NO), combine fees + extra, return the pricing"
+	}
+}

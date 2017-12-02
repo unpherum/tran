@@ -1,0 +1,25 @@
+@import "variables";
+
+.step-progress{
+	.tabs{
+		margin-top: 0;
+		.tabs-navigation{
+			display:none;
+		}
+	}
+	.step{
+		.stepper{
+					div{
+						div{
+							div:nth-child(2n+2){
+								
+								//background: $light-blue-color !important;
+								
+							}
+						}
+					}	
+
+		}
+		
+	}
+}

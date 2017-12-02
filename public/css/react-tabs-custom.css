@@ -1,0 +1,77 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.title {
+  padding: 50px;
+  padding-bottom: 100px;
+  margin: 0;
+  background: #f2f2f2;
+  font-size: 48px;
+  font-weight: 200;
+  color: #919191;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.9);
+}
+
+/* =============================================================================
+  An example of how stylize the tabs
+============================================================================= */
+
+.tabs {
+  margin-top: -50px;
+}
+
+.tabs-navigation {
+  padding: 0 50px;
+  padding: 0 20px;
+  max-height: 50px;
+  border-bottom: 1px solid #DDD;
+}
+
+.tabs-menu {
+  display: table;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.tabs-menu-item {
+  float: left;
+}
+
+.tabs-menu-item a {
+  display: block;
+  padding: 0 40px;
+  height: 50px;
+  line-height: 50px;
+  border-bottom: 0;
+  color: #A9A9A9;
+}
+
+.tabs-menu-item:not(.is-active) a:hover {
+  color: #3498db;
+}
+
+.tabs-menu-item.is-active a {
+  background: #fff;
+  border: 1px solid #DDD;
+  border-top: 2px solid #3498db;
+  border-bottom: 0;
+  color: #333;
+}
+
